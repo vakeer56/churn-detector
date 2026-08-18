@@ -1,0 +1,52 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+venv.bak/
+pip-wheel-metadata/
+
+# Distribution / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+pip-log.txt
+
+# Pytest
+.pytest_cache/
+
+# Type checkers / linters
+.mypy_cache/
+.ruff_cache/
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+
+# Data, models, generated results (don't commit large files)
+data/*.csv
+data/*.parquet
+models/
+results/
+
+# Environment / secrets
+.env
+.env.*
+secrets.json
+
+# Optional: compiled wheels
+*.whl
